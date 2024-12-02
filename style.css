@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightseagreen;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: 80vh;
+    margin-top: 90px;
+    border-radius: 10px;
+    position: relative;
+}
+.container h1{
+    color: darkblue;
+}
+.container input{
+    margin: 5% auto;
+    width: 40%;
+    height: 10%;
+}
+.container button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.container button:hover{
+    background-color: red;
+    color:white;
+}
+.qrcode{
+    position: absolute;
+}
